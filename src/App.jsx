@@ -15,7 +15,7 @@ function App() {
           <img src={task_image} alt="Task" className="mx-auto mt-44 w-[50%] h-auto" />
           {/* Credit: https://www.vecteezy.com/free-png/task */}
         </div>
-        <div className="flex flex-col w-full lg:w-1/2 lg:py-8 lg:gap-8 gap-4 py-4">
+        <div className="flex flex-col w-full lg:w-1/2 lg:pt-16 lg:pb-8 lg:gap-8 gap-4 py-4">
             <AddTask />
             <SearchTask />
             <ListTask />
